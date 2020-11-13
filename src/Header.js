@@ -7,7 +7,7 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./FireBase";
 const Header = () => {
   const [{ basket, user }] = useStateValue();
-  // console.log(basket);
+  console.log(user?.email);
 
   const handleAuthentication = () => {
     if (user) {
@@ -30,7 +30,9 @@ const Header = () => {
       <div className="header_nav" onClick={handleAuthentication}>
         <Link to={!user && "/login"} className="header_link">
           <div className="header_option">
-            <span className="header_optionLineOne">Hello Guest</span>
+            <span className="header_optionLineOne">
+              {user ? `Hello ${user.email}` : "Hello Guest"}
+            </span>
             <span className="header_optionLineTwo">
               {user ? "Sign out" : "Sign in"}
             </span>

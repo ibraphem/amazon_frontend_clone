@@ -13,16 +13,14 @@ const Home = () => {
       <div className="home_row">
         <Product
           id="1234"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used 
-      in laying out print, graphic or web designs."
+          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used."
           price={101.96}
           rating={5}
           image="https://images.macrumors.com/article-new/2019/09/iphone11prolineup-800x778.jpg"
         />
         <Product
           id="1235"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used 
-      in laying out print, graphic or web designs."
+          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used."
           price={15.96}
           rating={5}
           image="https://res.cloudinary.com/singer-sewing/image/upload/v1573724176/Singer-Website-Library/products/Singer_4452_Heavy_duty_sewing_Machine_myqh0o.jpg"
@@ -31,24 +29,21 @@ const Home = () => {
       <div className="home_row">
         <Product
           id="1236"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used 
-      in laying out print, graphic or web designs."
+          title="Lorem ipsum: or lipsum as it is sometimes known."
           price={11.96}
           rating={5}
           image="https://www.lg.com/in/images/washing-machines/md07515048/gallery/FHM1207ZDL-Washing-Machines-Front-View-D-01.jpg"
         />
         <Product
           id="1237"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used 
-      in laying out print, graphic or web designs."
+          title="Lorem ipsum: or lipsum as it is sometimes known."
           price={141.96}
           rating={5}
           image="https://sc01.alicdn.com/kf/HTB1zLE8XsfrK1RkSmLyq6xGApXae.jpg"
         />
         <Product
           id="1238"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used 
-      in laying out print, graphic or web designs."
+          title="Lorem ipsum: or lipsum as it is sometimes known."
           price={113.96}
           rating={5}
           image="https://www.tonyson.ng/6325-home_default/wall-clock.jpg"
@@ -57,8 +52,7 @@ const Home = () => {
       <div className="home_row">
         <Product
           id="1239"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used 
-      in laying out print, graphic or web designs."
+          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used."
           price={12.96}
           rating={5}
           image="https://www.denofgeek.com/wp-content/uploads/2016/03/main_2.jpg?fit=620%2C396"
