@@ -31,7 +31,7 @@
 
 .header_basketCount {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 .header_optionLineOne {
@@ -41,6 +41,11 @@
 .header_optionLineTwo {
   font-size: 13px;
   font-weight: 800;
+  padding-right: 0;
+}
+
+.header_count {
+  padding-right: 5px;
 }
 
 .header_logo {

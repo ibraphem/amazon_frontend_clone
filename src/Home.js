@@ -13,17 +13,17 @@ const Home = () => {
       <div className="home_row">
         <Product
           id="1234"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used."
+          title="Lorem ipsum: or lipsum as it is sometimes known."
           price={101.96}
           rating={5}
           image="https://images.macrumors.com/article-new/2019/09/iphone11prolineup-800x778.jpg"
         />
         <Product
           id="1235"
-          title="Lorem ipsum: or lipsum as it is sometimes known, is dummy text used."
+          title="Lorem ipsum: or lipsum as it is sometimes known."
           price={15.96}
           rating={5}
-          image="https://res.cloudinary.com/singer-sewing/image/upload/v1573724176/Singer-Website-Library/products/Singer_4452_Heavy_duty_sewing_Machine_myqh0o.jpg"
+          image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/L/a/Latex-Waist-Trainer---Black-7432840.jpg"
         />
       </div>
       <div className="home_row">
