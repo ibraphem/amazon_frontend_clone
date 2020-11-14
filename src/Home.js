@@ -29,24 +29,24 @@ const Home = () => {
       <div className="home_row">
         <Product
           id="1236"
-          title="Lorem ipsum: or lipsum as it is sometimes known."
+          title="Lorem ipsum: or lipsum as it is."
           price={11.96}
-          rating={5}
-          image="https://www.lg.com/in/images/washing-machines/md07515048/gallery/FHM1207ZDL-Washing-Machines-Front-View-D-01.jpg"
-        />
-        <Product
-          id="1237"
-          title="Lorem ipsum: or lipsum as it is sometimes known."
-          price={141.96}
           rating={5}
           image="https://sc01.alicdn.com/kf/HTB1zLE8XsfrK1RkSmLyq6xGApXae.jpg"
         />
         <Product
+          id="1237"
+          title="Lorem ipsum: or lipsum as it is."
+          price={141.96}
+          rating={5}
+          image="https://d3re0f381bckq9.cloudfront.net/41869737_img-20200225-wa0020_1080x1080.jpg"
+        />
+        <Product
           id="1238"
-          title="Lorem ipsum: or lipsum as it is sometimes known."
+          title="Lorem ipsum: or lipsum as it is."
           price={113.96}
           rating={5}
-          image="https://www.tonyson.ng/6325-home_default/wall-clock.jpg"
+          image="https://cdn.shopify.com/s/files/1/1185/9434/products/leather-swivel-chair-ug002-3747864936517.jpg?v=1587085368"
         />
       </div>
       <div className="home_row">
